@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>desktop</title>
+
+</head>
+<body>
+	<h1>SUBLIME</h1>
+<p>Improved OpenGL rendering performance by automatically batching together controls
+Added support for Chinese standard GB18030 file encoding
+Added support for CP862 file encoding
+Resolved various issues tracking symlinks in the side-bar
+Avoid session data corruption if a crash happens while saving the session
+subl -n will reuse an existing empty window if the application isn't running
+Binary files now show as "Binary" syntax instead of "Plain Text" in the status bar
+Fixed wildcards incorrectly matching subpaths (For settings like "folder_exclude_patterns")
+Made "find_in_files_max_result_size" not apply when replacing
+Fixed crash when loading invalid grid layout from session
+Fixed spell checker incorrectly marking some words as correct if they can't be encoded
+Fixed rendering order of successive popups
+Fixed package subfolders sometimes not being loaded when matching the "ignored_packages" setting
+Fixed layout instability in side bar causing things to occasionally be rendered 1 pixel off
+Added some missing glyphs to "draw_unicode_white_space": "all"
+Added "draw_unicode_bidi" setting for drawing unicode bidi characters</p>
+<h2>part 2</h2>
+<p>
+	Added "select_across_groups" setting for opting into the old side bar selection behavior when selecting a single file
+Fixed "close_windows_when_empty" setting not working
+Fixed goto-definition preview not closing on escape
+Fixed quick panel closing on enter when there are no matching entries
+Syntax Highlighting: Fixed backtracking breaking when creating phantoms or doing a context backtrace
+Syntax Highlighting: Fixed regression with some syntax definitions introduced in 4115
+Linux: Added missing libcurl dependency for package managers
+Linux: Fixed GTK overriding LC_NUMERIC environment variable breaking serialization
+Windows: Fixed command line not taking focus after closing a waited on file
+Windows: Fixed crash when OpenGL initialization fails
+Mac: Aliases are now resolved when using drag and drop
+Mac: Fixed window sometimes being restored on startup when "create_window_at_startup" is disabled
+Mac: Fixed native tabs restoration resulting in odd behavior
+Mac: Fixed subl -b not working
+Mac: Fixed terminal not being focused after waiting on file
+Mac: Fixed Window > Merge All Windows merging minimized windows
+Mac: Fixed various inconsistencies when opening files from finder
+API: The show_panel command for the find and find in files panels can now take "pattern" and "replace_pattern" arguments
+API: ListInputHandler.preview is now called with None when no items match the current filter
+API: Fixed case where Window.project_data() could return an invalid value
+API: Opening a new pane moves currently selected sheets
+API: Added Window.move_sheets_to_group
+API: The commands move_to and move_to_neighbouring now move currently selected sheets
+BUILD 4121
+26 October 2021
+</p>
+</body>
+</html>
